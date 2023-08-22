@@ -13,7 +13,7 @@ class TestCSVPrinter(unittest.TestCase):
 
     def test_read3(self):
         try:
-            printer = CSVPrinter("sample.csv")
+            printer = CSVPrinter("sample1.csv")
             printer.read()
             self.fail("a")
         except FileNotFoundError as e:
